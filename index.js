@@ -2,7 +2,7 @@ const EXPRESS = require("express");
 const APP	= EXPRESS();
 
 APP.get('/', (req,res) => {
-	res.send('CaC Deploy');
+	res.send('CaC Deploy Vercel.');
 });
 
 
