@@ -1,10 +1,10 @@
 const EXPRESS = require("express");
-const APP	= express();
+const APP	= EXPRESS();
 
-app.get('/', (req,res) => {
-	res.sent("CaC Deploy");
+APP.get('/', (req,res) => {
+	res.send('CaC Deploy');
 });
 
 
-const PORT = process.env.PORT || 3000;
-application.listen(PORT, () => console.log(`http://localhost:${PORT}`));
+const PORT = 3000;
+APP.listen(PORT, () => console.log(`http://localhost:${PORT}`));
